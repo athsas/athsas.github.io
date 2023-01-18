@@ -23,6 +23,15 @@ h1 {
 	
 }
 
+.container h1 {
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+
+.container p {
+	margin-bottom: 20px;
+}
+
 .link_home {
 	position:fixed;
 	top: 25px;
@@ -68,7 +77,6 @@ ul li a:hover {
 	background-position:center;
 }
 
-
 /* navegacao */
 
 nav {
@@ -81,7 +89,6 @@ nav {
 	padding-bottom: 30px;
 	padding-left: 15px;
 	font-size: 20px;
-	top: 0;
 	z-index: 99;
 	
 }
@@ -119,7 +126,8 @@ nav a:hover {
 /* sobre */
 
 #sobre h1 {
-	margin-top: 10px;
+	padding-top: 315px;
+	margin-top: -315px;
 	margin-bottom: 15px;
 }
 
@@ -141,16 +149,11 @@ nav a:hover {
 	background-position: center;
 }
 
-.CV_link {
-	padding-top: 20px;
-	
-}
-
 /* projetos */
 
 #projetos h1 {
-	margin-top: 15px;
-	margin-bottom: 20px;
+	padding-top: 115px;
+	margin-top: -100px;
 }
 
 .projetos {
@@ -201,3 +204,76 @@ footer a:hover {
 }
 
 /* media queries */
+
+@media (max-width: 768px) {
+	
+	.barra-lateral {
+	background-image: url("../img/athsas-anima.gif");
+	background-repeat: no-repeat;
+	background-position: center 5px;
+	background-size: 130px;
+	background-color: white;
+	height: 175px;
+	position: fixed;
+	width: 100%;
+	font-size: 20px;
+	z-index: 99;
+}
+	
+	nav {
+	position:fixed;
+	background-color: white;
+	height: 0px;
+	text-align: center;
+	width: 100%;
+	padding-top: 15px;
+	margin-top: 75px;
+	font-size: 20px;
+	z-index: 100;
+	
+}
+
+nav a {
+	margin-right: 25px;
+}
+	
+ul {
+	list-style: url("../img/bullet-lateral.png");
+	margin-top: 100px;
+	display: flex;
+    justify-content: space-around;
+	
+}
+
+ul a {
+	color: red;
+}
+
+ul li {
+	font-size: 16px;
+
+}
+
+ul li a:hover {
+	color: red;
+	font-weight: 700;
+	background-image: url("../img/hover-lateral_gif.gif");
+	background-size: 100%;
+	background-repeat: repeat-x;
+	background-position:center;
+}
+	
+	.container {
+	position: relative;
+	width: 100% 0px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+	.anima-intro {
+	margin-top: 175px;
+}
+	footer {
+	font-size: 12px;
+	
+}
+}
