@@ -32,6 +32,38 @@ h1 {
 	margin-bottom: 20px;
 }
 
+#a-peste {
+	padding-top: 115px;
+}
+
+#fragmento92 {
+	padding-top: 115px;
+}
+
+#infografico {
+	padding-top: 115px;
+}
+
+#julita {
+	padding-top: 115px;
+}
+
+#larico {
+	padding-top: 115px;
+}
+
+#brasao {
+	padding-top: 115px;
+}
+
+#cartazes {
+	padding-top: 115px;
+}
+
+#cenografia {
+	padding-top: 115px;
+}
+
 .link_home {
 	position:fixed;
 	top: 25px;
@@ -133,7 +165,6 @@ nav a:hover {
 
 #sobre p {
 	line-height: 1.5em;
-	font-weight: 500;
 	
 }
 
@@ -196,7 +227,6 @@ footer {
 
 footer a {
 	color: white;
-	
 }
 
 footer a:hover {
@@ -269,11 +299,75 @@ ul li a:hover {
 	margin-left: 15px;
 	margin-right: 15px;
 }
+	#a-peste {
+	padding-top: 175px;
+	font-size: 14px;
+	}
+	
+	#fragmento92 {
+	padding-top: 175px;
+	font-size: 14px;
+	}
+	
+	#infografico {
+	padding-top: 175px;
+	font-size: 14px;
+	}
+	
+	#julita {
+	padding-top: 175px;
+	font-size: 14px;
+	}
+	
+	#larico {
+	padding-top: 175px;
+	font-size: 14px;
+	}
+	
+	#brasao {
+	padding-top: 175px;
+	font-size: 14px;
+	}
+	
+	#cartazes {
+	padding-top: 175px;
+	font-size: 14px;
+	}
+	
+	#cenografia {
+	padding-top: 175px;
+	font-size: 14px;
+	}
+	
+	.link_home {
+	position:fixed;
+	top: 40px;
+	left: 50%;
+		-ms-transform: translate(-50%, -50%);
+		transform: translate(-50%, -50%);
+	width: 140px;
+	height: 70px;
+	z-index: 102;
+	}
+	
 	.anima-intro {
 	margin-top: 175px;
 }
-	footer {
-	font-size: 12px;
+	#sobre p {
+		font-size: 14px;
+	}
 	
-}
+	#projetos h1 {
+		padding-top: 175px;
+		margin-top: -150px;
+	}
+	
+	.projetos span {
+		font-size: 14px;
+	}
+	
+	footer {
+	font-size: 14px;
+	}
+	
 }
