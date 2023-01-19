@@ -357,13 +357,26 @@ ul li a:hover {
 		font-size: 14px;
 	}
 	
+	.CV_link {
+		text-align: center;
+	}
+	
 	#projetos h1 {
 		padding-top: 175px;
 		margin-top: -150px;
 	}
 	
+	p {
+		text-align: center;
+	}
+	
+	h1 {
+	text-align: center;
+	}
+	
 	.projetos span {
 		font-size: 14px;
+		text-align: center;
 	}
 	
 	footer {
